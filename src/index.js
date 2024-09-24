@@ -1,3 +1,11 @@
+// index.js
+
+// import { getAllContacts } from './scripts/getAllContacts.js';
+// import { addContact } from './scripts/addOneContact.js';
+// import { removeLastContact } from './scripts/removeLastContact.js';
+// import { removeAllContacts } from './scripts/removeAllContacts.js';
+// import { countContacts } from './scripts/countContacts.js';
+
 // setInterval(() => {
 //   console.log('Hello world');
 // }, 1000);
