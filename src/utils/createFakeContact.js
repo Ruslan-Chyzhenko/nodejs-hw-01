@@ -17,5 +17,3 @@ export const createFakeContact = () => {
     job: faker.person.jobTitle(),
   };
 };
-
-module.exports = { createFakeContact };
