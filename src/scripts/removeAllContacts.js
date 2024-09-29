@@ -8,8 +8,8 @@ export const removeAllContacts = async () => {
       console.log('Список контактів вже порожній!');
       return;
     }
-    const emptyContacts = [];
-    await writeContacts(emptyContacts);
+    const deleteContacts = [];
+    await writeContacts(deleteContacts);
     console.log('Bci контакти були видалено!');
   } catch (error) {
     console.log('Помилка видалення всіх контактів', error);
