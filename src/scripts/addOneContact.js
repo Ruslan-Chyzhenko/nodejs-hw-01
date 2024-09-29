@@ -1,7 +1,3 @@
-// export const addOneContact = async () => {};
-
-// addOneContact();
-
 import { readContacts } from '../utils/readContacts.js';
 import { writeContacts } from '../utils/writeContacts.js';
 import { createFakeContact } from '../utils/createFakeContact.js';
@@ -13,9 +9,9 @@ try {
   const newContacts = createFakeContact();
   const updatedContacts = [...contacts, newContacts];
   await writeContacts(updatedContacts);
-  console.log('New contact has been added successfully!');
+  console.log('Новий контакт було успішно додано!');
 } catch (error) {
-  console.error('Error adding one contact:', error);
+  console.error('Помилка при додаванні контакту:', error);
 }
 
 addOneContact();

@@ -8,8 +8,8 @@ export const readContacts = async () => {
       return [];
     }
     return JSON.parse(data);
-  } catch (err) {
-    console.error('Error reading contacts from ${PATH_DB}:', err);
+  } catch (error) {
+    console.error('Помилка при читанні контакту ${PATH_DB}:', error);
     return [];
   }
 };
