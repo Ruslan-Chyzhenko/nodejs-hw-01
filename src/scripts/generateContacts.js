@@ -15,7 +15,7 @@ export const generateContacts = async (count) => {
 
     await writeContacts(updatedContacts);
 
-    console.log(`${count} Нові контакти було успішно згенеровано!`);
+    console.log(`${count} нових контактів було успішно згенеровано!`);
   } catch (error) {
     console.error('Помилка при генерації контактів:', error);
   }
